@@ -1,4 +1,4 @@
-package com.imooc.config;
+package com.study.config;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -7,15 +7,15 @@ import org.springframework.stereotype.Component;
 
 /**
  * //匹配ProductService类里头的所有方法
- * @Pointcut("within(com.imooc.service.ProductService)")
- * //匹配com.imooc包及子包下所有类的方法
- * @Pointcut("within(com.imooc..*)")
+ * @Pointcut("within(com.study.service.ProductService)")
+ * //匹配com.study包及子包下所有类的方法
+ * @Pointcut("within(com.study..*)")
  * Created by cat on 2017-02-19.
  */
 @Aspect
 @Component
 public class PkgTypeAspectConfig {
-//    @Pointcut("within(com.imooc.service.sub.*)")
+//    @Pointcut("within(com.study.service.sub.*)")
 //    public void matchType(){}
 //
 //    @Before("matchType()")

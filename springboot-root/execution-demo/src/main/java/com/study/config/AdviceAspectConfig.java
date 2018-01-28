@@ -1,7 +1,6 @@
-package com.imooc.config;
+package com.study.config;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.omg.CORBA.Object;
 import org.springframework.stereotype.Component;
@@ -24,16 +23,16 @@ public class AdviceAspectConfig {
 
     /******pointcut********/
 
-    @Pointcut("@annotation(com.imooc.anno.AdminOnly) && within(com.imooc..*)")
+    @Pointcut("@annotation(com.study.anno.AdminOnly) && within(com.study..*)")
     public void matchAnno(){}
 
-    @Pointcut("execution(* *..find*(Long)) && within(com.imooc..*) ")
+    @Pointcut("execution(* *..find*(Long)) && within(com.study..*) ")
     public void matchLongArg(){}
 
-    @Pointcut("execution(public * com.imooc.service..*Service.*(..) throws java.lang.IllegalAccessException) && within(com.imooc..*)")
+    @Pointcut("execution(public * com.study.service..*Service.*(..) throws java.lang.IllegalAccessException) && within(com.study..*)")
     public void matchException(){}
 
-    @Pointcut("execution(String com.imooc..*.*(..)) && within(com.imooc..*)")
+    @Pointcut("execution(String com.study..*.*(..)) && within(com.study..*)")
     public void matchReturn(){}
 
 
