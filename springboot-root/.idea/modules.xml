@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cache-demo/cache-demo.iml" filepath="$PROJECT_DIR$/cache-demo/cache-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/execution-demo/execution-demo.iml" filepath="$PROJECT_DIR$/execution-demo/execution-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/proxy-demo/proxy-demo.iml" filepath="$PROJECT_DIR$/proxy-demo/proxy-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security-demo/security-demo.iml" filepath="$PROJECT_DIR$/security-demo/security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-cache-demo/springboot-aop-cache-demo.iml" filepath="$PROJECT_DIR$/springboot-aop-cache-demo/springboot-aop-cache-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-execution-demo/springboot-aop-execution-demo.iml" filepath="$PROJECT_DIR$/springboot-aop-execution-demo/springboot-aop-execution-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-log-demo/springboot-aop-log-demo.iml" filepath="$PROJECT_DIR$/springboot-aop-log-demo/springboot-aop-log-demo.iml" group="springboot-aop-root and modules" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-proxy-demo/springboot-aop-proxy-demo.iml" filepath="$PROJECT_DIR$/springboot-aop-proxy-demo/springboot-aop-proxy-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-root.iml" filepath="$PROJECT_DIR$/springboot-aop-root.iml" group="springboot-aop-root and modules" />
-      <module fileurl="file://$PROJECT_DIR$/transaction-demo/transaction-demo.iml" filepath="$PROJECT_DIR$/transaction-demo/transaction-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-security-demo/springboot-aop-security-demo.iml" filepath="$PROJECT_DIR$/springboot-aop-security-demo/springboot-aop-security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-transaction-demo/springboot-aop-transaction-demo.iml" filepath="$PROJECT_DIR$/springboot-aop-transaction-demo/springboot-aop-transaction-demo.iml" />
     </modules>
   </component>
 </project>
