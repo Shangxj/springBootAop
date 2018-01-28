@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cache-demo" />
+        <module name="execution-demo" />
+        <module name="proxy-demo" />
+        <module name="security-demo" />
         <module name="springboot-aop-log-demo" />
         <module name="springboot-aop-root" />
+        <module name="transaction-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
+      <module name="cache-demo" target="1.8" />
+      <module name="execution-demo" target="1.8" />
+      <module name="proxy-demo" target="1.8" />
+      <module name="security-demo" target="1.8" />
       <module name="springboot-aop-log-demo" target="1.8" />
       <module name="springboot-aop-root" target="1.8" />
+      <module name="transaction-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
