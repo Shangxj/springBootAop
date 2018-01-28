@@ -1,4 +1,4 @@
-package com.imooc.log;
+package com.study.log;
 
 /**
  * Created by cat on 2017-02-19.

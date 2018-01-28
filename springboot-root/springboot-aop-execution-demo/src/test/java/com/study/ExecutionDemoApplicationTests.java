@@ -1,9 +1,6 @@
-package com.imooc;
+package com.study;
 
-import com.study.bean.Product;
-import com.study.log.LogService;
 import com.study.service.ProductService;
-import com.study.service.sub.SubService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,10 +15,10 @@ public class ExecutionDemoApplicationTests {
 	ProductService productService;
 
 	@Autowired
-	SubService subService;
+	com.study.service.sub.SubService subService;
 
 	@Autowired
-	LogService logService;
+	com.study.log.LogService logService;
 
 	@Test
 	public void test() {
@@ -37,7 +34,7 @@ public class ExecutionDemoApplicationTests {
 		}
 		logService.log();
 		productService.log();
-		logService.annoArg(new Product());
+		logService.annoArg(new com.study.bean.Product());
 	}
 
 }

@@ -10,8 +10,12 @@
         <module name="execution-demo" />
         <module name="proxy-demo" />
         <module name="security-demo" />
+        <module name="springboot-aop-cache-demo" />
+        <module name="springboot-aop-execution-demo" />
         <module name="springboot-aop-log-demo" />
-        <module name="springboot-aop-root" />
+        <module name="springboot-aop-proxy-demo" />
+        <module name="springboot-aop-security-demo" />
+        <module name="springboot-aop-transaction-demo" />
         <module name="transaction-demo" />
       </profile>
     </annotationProcessing>
@@ -20,8 +24,13 @@
       <module name="execution-demo" target="1.8" />
       <module name="proxy-demo" target="1.8" />
       <module name="security-demo" target="1.8" />
+      <module name="springboot-aop-cache-demo" target="1.8" />
+      <module name="springboot-aop-execution-demo" target="1.8" />
       <module name="springboot-aop-log-demo" target="1.8" />
+      <module name="springboot-aop-proxy-demo" target="1.8" />
       <module name="springboot-aop-root" target="1.8" />
+      <module name="springboot-aop-security-demo" target="1.8" />
+      <module name="springboot-aop-transaction-demo" target="1.8" />
       <module name="transaction-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,6 +1,6 @@
-package com.imooc;
+package com.study;
 
-import com.imooc.service.DemoService;
+import com.study.service.DemoService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

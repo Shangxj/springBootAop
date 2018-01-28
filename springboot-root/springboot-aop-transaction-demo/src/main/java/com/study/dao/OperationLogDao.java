@@ -1,6 +1,6 @@
-package com.imooc.dao;
+package com.study.dao;
 
-import com.imooc.domain.OperationLog;
+import com.study.domain.OperationLog;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OperationLogDao extends JpaRepository<OperationLog, Long> {

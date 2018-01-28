@@ -1,6 +1,6 @@
-package com.imooc.service.sub;
+package com.study.service.sub;
 
-import com.imooc.service.ProductService;
+import com.study.service.ProductService;
 import org.springframework.stereotype.Component;
 
 /**

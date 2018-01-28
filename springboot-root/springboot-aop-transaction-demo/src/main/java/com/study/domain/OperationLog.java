@@ -1,4 +1,4 @@
-package com.imooc.domain;
+package com.study.domain;
 
 import javax.persistence.*;
 import java.util.Date;

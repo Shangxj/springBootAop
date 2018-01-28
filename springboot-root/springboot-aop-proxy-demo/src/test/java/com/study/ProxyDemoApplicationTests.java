@@ -1,4 +1,4 @@
-package com.imooc;
+package com.study;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

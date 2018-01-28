@@ -1,9 +1,9 @@
-package com.imooc.service;
+package com.study.service;
 
-import com.imooc.anno.NeedSecuredClass;
-import com.imooc.anno.NeedSecuredSource;
-import com.imooc.anno.NeedSecured;
-import com.imooc.log.Loggable;
+import com.study.anno.NeedSecuredClass;
+import com.study.anno.NeedSecuredSource;
+import com.study.anno.NeedSecured;
+import com.study.log.Loggable;
 import org.springframework.stereotype.Component;
 
 /**

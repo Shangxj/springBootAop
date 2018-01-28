@@ -1,7 +1,7 @@
-package com.imooc.log;
+package com.study.log;
 
-import com.imooc.anno.AdminOnly;
-import com.imooc.bean.Product;
+import com.study.anno.AdminOnly;
+import com.study.bean.Product;
 import org.springframework.stereotype.Component;
 
 /**

@@ -1,8 +1,6 @@
 package com.study.config;
 
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
-import org.omg.CORBA.Object;
 import org.springframework.stereotype.Component;
 
 /**

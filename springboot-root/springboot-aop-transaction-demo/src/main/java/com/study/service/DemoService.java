@@ -1,9 +1,9 @@
-package com.imooc.service;
+package com.study.service;
 
-import com.imooc.dao.OperationLogDao;
-import com.imooc.dao.UserDao;
-import com.imooc.domain.OperationLog;
-import com.imooc.domain.User;
+import com.study.dao.OperationLogDao;
+import com.study.dao.UserDao;
+import com.study.domain.OperationLog;
+import com.study.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

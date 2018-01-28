@@ -1,4 +1,4 @@
-package com.imooc.anno;
+package com.study.anno;
 
 import java.lang.annotation.*;
 
