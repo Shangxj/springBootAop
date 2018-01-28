@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-log-demo/springboot-aop-log-demo.iml" filepath="$PROJECT_DIR$/springboot-aop-log-demo/springboot-aop-log-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-root.iml" filepath="$PROJECT_DIR$/springboot-aop-root.iml" />
+    </modules>
+  </component>
+</project>
